@@ -4,6 +4,8 @@ const mongoose = require('mongoose');
 const Blog = require('./models/blogs');
 const { render } = require('ejs');
 
+var user = "test"
+var password = "Test@123321"
 //express app
 const app = express();
 
